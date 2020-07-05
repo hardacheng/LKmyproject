@@ -1,0 +1,18 @@
+.pd_div{padding-top: 11.25rem;}
+.font_p{font-size: 0.75rem;color: #a5a5a5;}
+.h_120{position: fixed;top: 160px;left: 2rem;right: 1rem;z-index: 2;}
+@media (min-width:576px) {
+	/* .h_120{position: fixed;top: 10%;left: 1.125rem;right: 0rem;z-index: 3;background-color: white; } */
+	.sm_none{display: none;font-size: 0.5rem;}
+	.font_p{width: 100%;}
+	.font_b{width: 100%;}
+	.m_l{margin-left: 0;}
+}
+@media (min-width:768px) {
+}
+@media (min-width:992px) {
+	.sm_none{display: block;width: 20%;}
+	.font_p{width: 80%;}
+	.font_b{width: 20%;}
+	.m_l{margin-left: 11.25rem;}
+}

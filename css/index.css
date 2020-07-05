@@ -1,0 +1,14 @@
+.text_show{font-size: 0.1rem;color: #8c8c8c; padding: 0 2% 0 0; position: absolute;top: 41rem;z-index: 3;}
+
+@media (min-width:576px) {
+	.img_banner{ position: absolute;background: url(../图片/主页/web_background.jpg)no-repeat center;background-size:cover;left: 0%;top: 11.25rem;bottom: 0;right: 0;z-index: 1;}
+	.text_show{display: none;}
+}
+@media (min-width:768px) {
+	
+}	
+@media (min-width:992px) {
+	.img_banner{ position: absolute;background: url(../图片/主页/web_background.jpg)no-repeat center;background-size: cover;left: 23%;top: 0;bottom: 0;right: 0;z-index: 1;}
+	.text_show{display: block;}
+}
+

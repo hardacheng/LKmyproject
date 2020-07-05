@@ -1,0 +1,28 @@
+.h_height{height: 7.5rem;position: fixed;z-index: 3;}
+/* .navbar-brand{width: 20%;} */
+.hover_a:hover{text-decoration: none;}
+.w-26{font-size: 0.5rem; position: fixed;margin-top: 11.25rem;padding:0 2.5%; z-index: 2;}
+.w-26 li a{color: #000;}
+.w-26 li a:hover{color: pink;text-decoration: none;}
+.li_posi{position: relative;}
+.div_posi{position: absolute;top: -4.0625rem;left: 3.75rem;width: 11.25rem;height: 11.25rem;background: url(../图片/主页/rdet.fbe3dae.jpg) no-repeat center;background-size: contain;}
+.w-15{width: 15%;}
+
+@media (min-width:576px) {
+	.w_padding{padding: 0 2% 0 2.5%;}
+	.navbar-brand{width: 30%;}
+	.img_none{display: none;}
+	.img_sm{display: block;}
+	.btn_menu{display:block;}
+}
+@media (min-width:768px) {
+	.navbar-brand{width: 30%;}
+}
+@media (min-width:992px) {
+	.w_padding{padding: 2% 2% 0 2.5%;}
+	.navbar-brand{width: 20%;}
+	.img_none{display: block;}
+	.img_sm{display: none;}
+	.w-26{width: 20%;}
+	.btn_menu{display:none;}
+}

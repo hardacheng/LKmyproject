@@ -1,0 +1,15 @@
+.w-70{width: 70%;}
+
+.h-d{height: 26rem;}
+.obj_img{object-fit: cover;}
+.pointer:hover{cursor: pointer;}
+.font_p{font-size: 0.7rem;}
+
+@media (min-width:576px) {
+	.posi_right{position: absolute;top: 11.25rem;left: 5.625rem;}	
+}
+@media (min-width:768px) {
+}
+@media (min-width:992px) {
+	.posi_right{position: absolute;top: 11.25rem;left: 18.125rem;padding:0 5%;}
+}
